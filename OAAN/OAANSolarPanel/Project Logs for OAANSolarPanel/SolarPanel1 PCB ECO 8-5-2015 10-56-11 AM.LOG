@@ -1,0 +1,215 @@
+Removed Pin From Net: NetName=GND Pin=D31-1
+Removed Pin From Net: NetName=GND Pin=D33-1
+Removed Pin From Net: NetName=GND Pin=D35-1
+Removed Pin From Net: NetName=GND Pin=D37-1
+Removed Pin From Net: NetName=GND Pin=D39-1
+Removed Pin From Net: NetName=GND Pin=S29-2
+Removed Pin From Net: NetName=GND Pin=S31-2
+Removed Pin From Net: NetName=GND Pin=S33-2
+Removed Pin From Net: NetName=GND Pin=S35-2
+Removed Pin From Net: NetName=GND Pin=S37-2
+Removed Pin From Net: NetName=GND Pin=S39-2
+Change Component Designator: OldDesignator=D1 NewDesignator=D2
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=D3 NewDesignator=D5
+Change Component Designator: OldDesignator=D5 NewDesignator=D8
+Change Component Designator: OldDesignator=D6 NewDesignator=D7
+Change Component Designator: OldDesignator=D7 NewDesignator=D11
+Change Component Designator: OldDesignator=D8 NewDesignator=D10
+Change Component Designator: OldDesignator=D9 NewDesignator=D14
+Change Component Designator: OldDesignator=D10 NewDesignator=D13
+Change Component Designator: OldDesignator=D11 NewDesignator=D17
+Change Component Designator: OldDesignator=D12 NewDesignator=D16
+Change Component Designator: OldDesignator=D13 NewDesignator=D20
+Change Component Designator: OldDesignator=D14 NewDesignator=D19
+Change Component Designator: OldDesignator=D15 NewDesignator=D23
+Change Component Designator: OldDesignator=D16 NewDesignator=D22
+Change Component Designator: OldDesignator=D17 NewDesignator=D26
+Change Component Designator: OldDesignator=D18 NewDesignator=D25
+Change Component Designator: OldDesignator=D19 NewDesignator=D29
+Change Component Designator: OldDesignator=D20 NewDesignator=D28
+Change Component Designator: OldDesignator=D21 NewDesignator=D32
+Change Component Designator: OldDesignator=D22 NewDesignator=D31
+Change Component Designator: OldDesignator=D23 NewDesignator=D35
+Change Component Designator: OldDesignator=D24 NewDesignator=D34
+Change Component Designator: OldDesignator=D25 NewDesignator=D38
+Change Component Designator: OldDesignator=D26 NewDesignator=D37
+Change Component Designator: OldDesignator=D27 NewDesignator=D41
+Change Component Designator: OldDesignator=D28 NewDesignator=D40
+Change Component Designator: OldDesignator=D29 NewDesignator=D43
+Change Component Designator: OldDesignator=D30 NewDesignator=D44
+Change Component Designator: OldDesignator=D31 NewDesignator=D47
+Change Component Designator: OldDesignator=D32 NewDesignator=D46
+Change Component Designator: OldDesignator=D33 NewDesignator=D50
+Change Component Designator: OldDesignator=D34 NewDesignator=D49
+Change Component Designator: OldDesignator=D35 NewDesignator=D53
+Change Component Designator: OldDesignator=D36 NewDesignator=D52
+Change Component Designator: OldDesignator=D37 NewDesignator=D56
+Change Component Designator: OldDesignator=D38 NewDesignator=D55
+Change Component Designator: OldDesignator=D39 NewDesignator=D59
+Change Component Designator: OldDesignator=D40 NewDesignator=D58
+Change Component Designator: OldDesignator=D41 NewDesignator=D3
+Change Component Designator: OldDesignator=D42 NewDesignator=D6
+Change Component Designator: OldDesignator=D43 NewDesignator=D9
+Change Component Designator: OldDesignator=D44 NewDesignator=D12
+Change Component Designator: OldDesignator=D45 NewDesignator=D15
+Change Component Designator: OldDesignator=D46 NewDesignator=D18
+Change Component Designator: OldDesignator=D47 NewDesignator=D21
+Change Component Designator: OldDesignator=D48 NewDesignator=D24
+Change Component Designator: OldDesignator=D49 NewDesignator=D27
+Change Component Designator: OldDesignator=D50 NewDesignator=D30
+Change Component Designator: OldDesignator=D51 NewDesignator=D33
+Change Component Designator: OldDesignator=D52 NewDesignator=D36
+Change Component Designator: OldDesignator=D53 NewDesignator=D39
+Change Component Designator: OldDesignator=D54 NewDesignator=D42
+Change Component Designator: OldDesignator=D55 NewDesignator=D45
+Change Component Designator: OldDesignator=D56 NewDesignator=D48
+Change Component Designator: OldDesignator=D57 NewDesignator=D51
+Change Component Designator: OldDesignator=D58 NewDesignator=D54
+Change Component Designator: OldDesignator=D59 NewDesignator=D57
+Added Component: Designator=D61(SMB)
+Added Component: Designator=D62(SMB)
+Added Component: Designator=D63(SMB)
+Added Component: Designator=D64(SMB)
+Added Component: Designator=D65(SMB)
+Added Component: Designator=D66(SMB)
+Added Component: Designator=S41(PCBComponent_1)
+Added Component: Designator=S42(PCBComponent_1)
+Added Component: Designator=S43(PCBComponent_1)
+Added Component: Designator=S44(PCBComponent_1)
+Added Pin To Net: NetName=GND Pin=D46-1
+Added Pin To Net: NetName=GND Pin=D49-1
+Added Pin To Net: NetName=GND Pin=D52-1
+Added Pin To Net: NetName=GND Pin=D55-1
+Added Pin To Net: NetName=GND Pin=D58-1
+Added Pin To Net: NetName=GND Pin=D61-1
+Added Pin To Net: NetName=POSITIVE Pin=D63-2
+Added Pin To Net: NetName=GND Pin=D64-1
+Added Pin To Net: NetName=POSITIVE Pin=D66-2
+Added Pin To Net: NetName=GND Pin=S30-2
+Added Pin To Net: NetName=GND Pin=S32-2
+Added Pin To Net: NetName=GND Pin=S34-2
+Added Pin To Net: NetName=GND Pin=S36-2
+Added Pin To Net: NetName=GND Pin=S38-2
+Added Pin To Net: NetName=GND Pin=S40-2
+Added Pin To Net: NetName=GND Pin=S42-2
+Added Pin To Net: NetName=GND Pin=S44-2
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetD1_2
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetD2_2
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD4_2
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD5_2
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD7_2
+Change Net Name : Old Net Name=NetD5_2 New Net Name=NetD8_2
+Change Net Name : Old Net Name=NetD7_1 New Net Name=NetD10_2
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD11_2
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD13_2
+Change Net Name : Old Net Name=NetD9_2 New Net Name=NetD14_2
+Change Net Name : Old Net Name=NetD11_1 New Net Name=NetD16_2
+Change Net Name : Old Net Name=NetD11_2 New Net Name=NetD17_2
+Change Net Name : Old Net Name=NetD13_1 New Net Name=NetD19_2
+Change Net Name : Old Net Name=NetD13_2 New Net Name=NetD20_2
+Change Net Name : Old Net Name=NetD15_1 New Net Name=NetD22_2
+Change Net Name : Old Net Name=NetD15_2 New Net Name=NetD23_2
+Change Net Name : Old Net Name=NetD17_1 New Net Name=NetD25_2
+Change Net Name : Old Net Name=NetD17_2 New Net Name=NetD26_2
+Change Net Name : Old Net Name=NetD19_1 New Net Name=NetD28_2
+Change Net Name : Old Net Name=NetD19_2 New Net Name=NetD29_2
+Change Net Name : Old Net Name=NetD21_1 New Net Name=NetD31_2
+Change Net Name : Old Net Name=NetD21_2 New Net Name=NetD32_2
+Change Net Name : Old Net Name=NetD23_1 New Net Name=NetD34_2
+Change Net Name : Old Net Name=NetD23_2 New Net Name=NetD35_2
+Change Net Name : Old Net Name=NetD25_1 New Net Name=NetD37_2
+Change Net Name : Old Net Name=NetD25_2 New Net Name=NetD38_2
+Change Net Name : Old Net Name=NetD27_1 New Net Name=NetD40_2
+Change Net Name : Old Net Name=NetD27_2 New Net Name=NetD41_2
+Added Pin To Net: NetName=NetD43_2 Pin=D43-2
+Added Pin To Net: NetName=NetD43_2 Pin=D44-1
+Added Pin To Net: NetName=NetD43_2 Pin=S29-2
+Added Pin To Net: NetName=NetD43_2 Pin=S30-1
+Added Net: Name=NetD43_2
+Added Pin To Net: NetName=NetD44_2 Pin=D44-2
+Added Pin To Net: NetName=NetD44_2 Pin=D45-1
+Added Pin To Net: NetName=NetD44_2 Pin=S29-1
+Added Net: Name=NetD44_2
+Added Pin To Net: NetName=NetD46_2 Pin=D46-2
+Added Pin To Net: NetName=NetD46_2 Pin=D47-1
+Added Pin To Net: NetName=NetD46_2 Pin=S31-2
+Added Pin To Net: NetName=NetD46_2 Pin=S32-1
+Added Net: Name=NetD46_2
+Added Pin To Net: NetName=NetD47_2 Pin=D47-2
+Added Pin To Net: NetName=NetD47_2 Pin=D48-1
+Added Pin To Net: NetName=NetD47_2 Pin=S31-1
+Added Net: Name=NetD47_2
+Added Pin To Net: NetName=NetD49_2 Pin=D49-2
+Added Pin To Net: NetName=NetD49_2 Pin=D50-1
+Added Pin To Net: NetName=NetD49_2 Pin=S33-2
+Added Pin To Net: NetName=NetD49_2 Pin=S34-1
+Added Net: Name=NetD49_2
+Added Pin To Net: NetName=NetD50_2 Pin=D50-2
+Added Pin To Net: NetName=NetD50_2 Pin=D51-1
+Added Pin To Net: NetName=NetD50_2 Pin=S33-1
+Added Net: Name=NetD50_2
+Added Pin To Net: NetName=NetD52_2 Pin=D52-2
+Added Pin To Net: NetName=NetD52_2 Pin=D53-1
+Added Pin To Net: NetName=NetD52_2 Pin=S35-2
+Added Pin To Net: NetName=NetD52_2 Pin=S36-1
+Added Net: Name=NetD52_2
+Added Pin To Net: NetName=NetD53_2 Pin=D53-2
+Added Pin To Net: NetName=NetD53_2 Pin=D54-1
+Added Pin To Net: NetName=NetD53_2 Pin=S35-1
+Added Net: Name=NetD53_2
+Added Pin To Net: NetName=NetD55_2 Pin=D55-2
+Added Pin To Net: NetName=NetD55_2 Pin=D56-1
+Added Pin To Net: NetName=NetD55_2 Pin=S37-2
+Added Pin To Net: NetName=NetD55_2 Pin=S38-1
+Added Net: Name=NetD55_2
+Added Pin To Net: NetName=NetD56_2 Pin=D56-2
+Added Pin To Net: NetName=NetD56_2 Pin=D57-1
+Added Pin To Net: NetName=NetD56_2 Pin=S37-1
+Added Net: Name=NetD56_2
+Added Pin To Net: NetName=NetD58_2 Pin=D58-2
+Added Pin To Net: NetName=NetD58_2 Pin=D59-1
+Added Pin To Net: NetName=NetD58_2 Pin=S39-2
+Added Pin To Net: NetName=NetD58_2 Pin=S40-1
+Added Net: Name=NetD58_2
+Added Pin To Net: NetName=NetD59_2 Pin=D59-2
+Added Pin To Net: NetName=NetD59_2 Pin=D60-1
+Added Pin To Net: NetName=NetD59_2 Pin=S39-1
+Added Net: Name=NetD59_2
+Added Pin To Net: NetName=NetD61_2 Pin=D61-2
+Added Pin To Net: NetName=NetD61_2 Pin=D62-1
+Added Pin To Net: NetName=NetD61_2 Pin=S41-2
+Added Pin To Net: NetName=NetD61_2 Pin=S42-1
+Added Net: Name=NetD61_2
+Added Pin To Net: NetName=NetD62_2 Pin=D62-2
+Added Pin To Net: NetName=NetD62_2 Pin=D63-1
+Added Pin To Net: NetName=NetD62_2 Pin=S41-1
+Added Net: Name=NetD62_2
+Added Pin To Net: NetName=NetD64_2 Pin=D64-2
+Added Pin To Net: NetName=NetD64_2 Pin=D65-1
+Added Pin To Net: NetName=NetD64_2 Pin=S43-2
+Added Pin To Net: NetName=NetD64_2 Pin=S44-1
+Added Net: Name=NetD64_2
+Added Pin To Net: NetName=NetD65_2 Pin=D65-2
+Added Pin To Net: NetName=NetD65_2 Pin=D66-1
+Added Pin To Net: NetName=NetD65_2 Pin=S43-1
+Added Net: Name=NetD65_2
+Added Member To Class: ClassName=SolarPanel1 Member=Component D29 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D31 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D32 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D34 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D35 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D40 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D50 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D52 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D59 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D61 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D62 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D63 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D64 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D65 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D66 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component S41 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S42 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S43 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S44 TASC

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=GND Pin=D40-1
+Removed Pin From Net: NetName=POSITIVE Pin=D42-2
+Removed Pin From Net: NetName=GND Pin=S28-2
+Removed Member From Class: ClassName=SolarPanel1 Member=D40
+Removed Member From Class: ClassName=SolarPanel1 Member=D41
+Removed Member From Class: ClassName=SolarPanel1 Member=D42
+Removed Member From Class: ClassName=SolarPanel1 Member=S27
+Removed Member From Class: ClassName=SolarPanel1 Member=S28

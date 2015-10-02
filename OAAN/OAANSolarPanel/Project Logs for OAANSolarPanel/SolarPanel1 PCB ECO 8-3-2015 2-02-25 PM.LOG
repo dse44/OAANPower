@@ -1,0 +1,26 @@
+Change Component Designator: OldDesignator=3739 NewDesignator=39
+Added Component: Designator=D40(SMB)
+Added Component: Designator=D41(SMB)
+Added Component: Designator=D42(SMB)
+Added Component: Designator=S27(PCBComponent_1)
+Added Component: Designator=S28(PCBComponent_1)
+Added Pin To Net: NetName=GND Pin=D40-1
+Added Pin To Net: NetName=POSITIVE Pin=D42-2
+Added Pin To Net: NetName=GND Pin=S27-2
+Change Net Name : Old Net Name=Net3739_1 New Net Name=Net39_1
+Added Pin To Net: NetName=NetD40_2 Pin=D40-2
+Added Pin To Net: NetName=NetD40_2 Pin=D41-1
+Added Pin To Net: NetName=NetD40_2 Pin=S27-1
+Added Pin To Net: NetName=NetD40_2 Pin=S28-2
+Added Net: Name=NetD40_2
+Added Pin To Net: NetName=NetD41_2 Pin=D41-2
+Added Pin To Net: NetName=NetD41_2 Pin=D42-1
+Added Pin To Net: NetName=NetD41_2 Pin=S28-1
+Added Net: Name=NetD41_2
+Added Member To Class: ClassName=SolarPanel1 Member=Component D25 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D26 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D40 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D41 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D42 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component S27 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S28 TASC

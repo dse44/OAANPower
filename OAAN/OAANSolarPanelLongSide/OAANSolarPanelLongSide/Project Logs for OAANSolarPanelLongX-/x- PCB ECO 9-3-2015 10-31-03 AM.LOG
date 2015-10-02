@@ -1,0 +1,31 @@
+Added Component: Designator=S22_D1(SMB)
+Added Component: Designator=S22_D2(SMB)
+Added Component: Designator=S22_D3(SMB)
+Added Component: Designator=S23_D1(SMB)
+Added Component: Designator=S23_D2(SMB)
+Added Component: Designator=S23_D3(SMB)
+Added Pin To Net: NetName=GND Pin=S22_D1-1
+Added Pin To Net: NetName=POSITIVE Pin=S22_D3-2
+Added Pin To Net: NetName=GND Pin=S23_D1-1
+Added Pin To Net: NetName=POSITIVE Pin=S23_D3-2
+Added Pin To Net: NetName=NetS22_C1_1 Pin=S22_D1-2
+Added Pin To Net: NetName=NetS22_C1_1 Pin=S22_D2-1
+Added Net: Name=NetS22_C1_1
+Added Pin To Net: NetName=NetS22_C2_1 Pin=S22_D2-2
+Added Pin To Net: NetName=NetS22_C2_1 Pin=S22_D3-1
+Added Net: Name=NetS22_C2_1
+Added Pin To Net: NetName=NetS23_C1_1 Pin=S23_D1-2
+Added Pin To Net: NetName=NetS23_C1_1 Pin=S23_D2-1
+Added Net: Name=NetS23_C1_1
+Added Pin To Net: NetName=NetS23_C2_1 Pin=S23_D2-2
+Added Pin To Net: NetName=NetS23_C2_1 Pin=S23_D3-1
+Added Net: Name=NetS23_C2_1
+Change Class Name : Old Net Name=SolarPanel1 New Net Name=x-
+Added Member To Class: ClassName=x- Member=Component S22_D1 D Schottky
+Added Member To Class: ClassName=x- Member=Component S22_D2 D Schottky
+Added Member To Class: ClassName=x- Member=Component S22_D3 D Schottky
+Added Member To Class: ClassName=x- Member=Component S23_D1 D Schottky
+Added Member To Class: ClassName=x- Member=Component S23_D2 D Schottky
+Added Member To Class: ClassName=x- Member=Component S23_D3 D Schottky
+Change Room Name: Old Name=SolarPanel1 New Name=x-
+Change Room Scope: Old Scope=InComponentClass('SolarPanel1') New Scope=InComponentClass('x-')

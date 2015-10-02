@@ -1,0 +1,644 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\David\Documents\Altium\Projects\OAAN\OAANSolarPanel\SolarPanel1.PcbDoc
+Date     : 8/13/2015
+Time     : 3:45:42 PM
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+   Violation between Track (275mm,2mm)(275mm,78mm)  Keep-Out Layer and 
+                     Via (272.5mm,5mm) Top Layer to Bottom Layer
+   Violation between Track (275mm,2mm)(275mm,78mm)  Keep-Out Layer and 
+                     Via (272.5mm,75mm) Top Layer to Bottom Layer
+Rule Violations :2
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.6mm) (Max=0.6mm) (Preferred=0.6mm) (All)
+   Violation between Width Constraint: Polygon Track (264.5mm,73.25mm)(264.5mm,74.654mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (264.5mm,73.25mm)(265.904mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (263.096mm,73.25mm)(264.5mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (264.5mm,71.846mm)(264.5mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (244mm,73.75mm)(244mm,75.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (244mm,73.75mm)(245.404mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (242.596mm,73.75mm)(244mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (244mm,72.346mm)(244mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (223.75mm,73.75mm)(225.154mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (223.75mm,73.75mm)(223.75mm,75.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (222.346mm,73.75mm)(223.75mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (223.75mm,72.346mm)(223.75mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (203.5mm,73.75mm)(204.904mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (203.5mm,73.75mm)(203.5mm,75.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (202.096mm,73.75mm)(203.5mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (203.5mm,72.346mm)(203.5mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (183.5mm,73.5mm)(183.5mm,74.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (183.5mm,73.5mm)(184.904mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (182.096mm,73.5mm)(183.5mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (183.5mm,72.096mm)(183.5mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (163mm,73.75mm)(163mm,75.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (163mm,72.346mm)(163mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (161.596mm,73.75mm)(163mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (163mm,73.75mm)(164.404mm,73.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (148mm,75.75mm)(149.404mm,75.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (148mm,74.346mm)(148mm,75.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (146.596mm,75.75mm)(148mm,75.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (271.384mm,30.75mm)(272.388mm,30.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (272.388mm,30.75mm)(273.392mm,30.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (272.388mm,29.746mm)(272.388mm,30.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (243.75mm,5.75mm)(245.154mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (243.75mm,5.75mm)(243.75mm,7.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (242.346mm,5.75mm)(243.75mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (210mm,5.75mm)(211.404mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (210mm,5.75mm)(210mm,7.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (210mm,4.346mm)(210mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (208.596mm,5.75mm)(210mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (177.25mm,5.75mm)(177.25mm,7.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (177.25mm,5.75mm)(178.654mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (177.25mm,4.346mm)(177.25mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (175.846mm,5.75mm)(177.25mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (147mm,5.75mm)(147mm,7.154mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (147mm,4.346mm)(147mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (145.596mm,5.75mm)(147mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (147mm,5.75mm)(148.404mm,5.75mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (122mm,73.5mm)(122mm,74.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (122mm,73.5mm)(123.404mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (120.596mm,73.5mm)(122mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (122mm,72.096mm)(122mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (101.5mm,73.5mm)(102.904mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (100.096mm,73.5mm)(101.5mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (101.5mm,73.5mm)(101.5mm,74.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (101.5mm,72.096mm)(101.5mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (81mm,73.25mm)(81mm,74.654mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (79.596mm,73.25mm)(81mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (81mm,73.25mm)(82.404mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (81mm,71.846mm)(81mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (60.5mm,73.5mm)(60.5mm,74.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (59.096mm,73.5mm)(60.5mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (60.5mm,73.5mm)(61.904mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (60.5mm,72.096mm)(60.5mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (38.75mm,73.5mm)(38.75mm,74.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (37.346mm,73.5mm)(38.75mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (38.75mm,73.5mm)(40.154mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (38.75mm,72.096mm)(38.75mm,73.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (18.75mm,73.25mm)(20.154mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (18.75mm,73.25mm)(18.75mm,74.654mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (17.346mm,73.25mm)(18.75mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (18.75mm,71.846mm)(18.75mm,73.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (110.75mm,6mm)(110.75mm,7.404mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (110.75mm,6mm)(112.154mm,6mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (110.75mm,4.596mm)(110.75mm,6mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (109.346mm,6mm)(110.75mm,6mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (78mm,4.846mm)(78mm,6.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (78mm,6.25mm)(78mm,7.654mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (76.596mm,6.25mm)(78mm,6.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (78mm,6.25mm)(79.404mm,6.25mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (44mm,5.5mm)(44mm,6.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (44mm,5.5mm)(45.404mm,5.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (44mm,4.096mm)(44mm,5.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (42.596mm,5.5mm)(44mm,5.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (12.5mm,5.5mm)(13.904mm,5.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (12.5mm,4.096mm)(12.5mm,5.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (12.5mm,5.5mm)(12.5mm,6.904mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (11.096mm,5.5mm)(12.5mm,5.5mm)  Top Layer
+   Violation between Width Constraint: Polygon Track (269.746mm,75mm)(272.5mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (272.5mm,72.246mm)(272.5mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (267.75mm,68.75mm)(267.75mm,69.639mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (266.861mm,68.75mm)(267.75mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (267.75mm,68.75mm)(268.639mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (247.75mm,69mm)(247.75mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (247.75mm,69mm)(248.639mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (246.861mm,69mm)(247.75mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (265.9mm,55.875mm)(265.9mm,64.379mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (245.65mm,55.625mm)(245.65mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (227mm,69mm)(227mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (226.111mm,69mm)(227mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (227mm,69mm)(227.889mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (225.15mm,55.625mm)(225.15mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (265.9mm,47.371mm)(265.9mm,55.875mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (265.9mm,55.875mm)(268.654mm,55.875mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (263.146mm,55.875mm)(265.9mm,55.875mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (245.65mm,55.625mm)(248.404mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (242.896mm,55.625mm)(245.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (271.384mm,33.29mm)(272.388mm,33.29mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (272.388mm,33.29mm)(273.392mm,33.29mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (272.388mm,33.29mm)(272.388mm,34.294mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (245.65mm,47.121mm)(245.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (225.15mm,55.625mm)(227.904mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (222.396mm,55.625mm)(225.15mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (225.15mm,47.121mm)(225.15mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (206.75mm,69mm)(206.75mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (205.861mm,69mm)(206.75mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (206.75mm,69mm)(207.639mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (186.5mm,68.75mm)(186.5mm,69.639mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (186.5mm,68.75mm)(187.389mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (185.611mm,68.75mm)(186.5mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (204.9mm,55.625mm)(204.9mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (184.9mm,55.625mm)(184.9mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (166.25mm,69mm)(167.139mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (166.25mm,69mm)(166.25mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (165.361mm,69mm)(166.25mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (138.75mm,75mm)(141.504mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (138.75mm,72.246mm)(138.75mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (145.5mm,69mm)(145.5mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (145.5mm,69mm)(146.389mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (144.611mm,69mm)(145.5mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (164.65mm,55.625mm)(164.65mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (144.15mm,55.625mm)(144.15mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (202.146mm,55.625mm)(204.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (204.9mm,55.625mm)(207.654mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (184.9mm,55.625mm)(187.654mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (182.146mm,55.625mm)(184.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (204.9mm,47.121mm)(204.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (184.9mm,47.121mm)(184.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (164.65mm,55.625mm)(167.404mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (161.896mm,55.625mm)(164.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (144.15mm,55.625mm)(146.904mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (141.396mm,55.625mm)(144.15mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (164.65mm,47.121mm)(164.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (144.15mm,47.121mm)(144.15mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (248.125mm,26.65mm)(248.125mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (248.125mm,26.65mm)(256.629mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (248.125mm,23.896mm)(248.125mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (239.621mm,26.65mm)(248.125mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (214.875mm,26.65mm)(214.875mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (206.371mm,26.65mm)(214.875mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (214.875mm,26.65mm)(223.379mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (214.875mm,23.896mm)(214.875mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (269.746mm,5mm)(272.5mm,5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (272.5mm,5mm)(272.5mm,7.754mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (238.361mm,10.5mm)(239.25mm,10.5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (239.25mm,10.5mm)(240.139mm,10.5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (239.25mm,9.611mm)(239.25mm,10.5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (181.625mm,26.65mm)(181.625mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (173.121mm,26.65mm)(181.625mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (181.625mm,26.65mm)(190.129mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (181.625mm,23.896mm)(181.625mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (148.375mm,26.65mm)(148.375mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (148.375mm,26.65mm)(156.879mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (148.375mm,23.896mm)(148.375mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (139.871mm,26.65mm)(148.375mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (204.861mm,10.5mm)(205.75mm,10.5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (205.75mm,10.5mm)(206.639mm,10.5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (205.75mm,9.611mm)(205.75mm,10.5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (172.25mm,10.25mm)(173.139mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (172.25mm,9.361mm)(172.25mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (171.361mm,10.25mm)(172.25mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (139.25mm,10.25mm)(140.139mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (139.25mm,9.361mm)(139.25mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (138.361mm,10.25mm)(139.25mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (138.75mm,5mm)(141.504mm,5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (138.75mm,5mm)(138.75mm,7.754mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (135.996mm,75mm)(138.75mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (125mm,68.75mm)(125.889mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (124.111mm,68.75mm)(125mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (125mm,68.75mm)(125mm,69.639mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (104.75mm,68.75mm)(104.75mm,69.639mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (123.9mm,55.625mm)(123.9mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (103.861mm,68.75mm)(104.75mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (104.75mm,68.75mm)(105.639mm,68.75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (84mm,69mm)(84mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (84mm,69mm)(84.889mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (83.111mm,69mm)(84mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (102.9mm,55.625mm)(102.9mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (82.15mm,55.625mm)(82.15mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (123.9mm,55.625mm)(126.654mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (102.9mm,55.625mm)(105.654mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (121.146mm,55.625mm)(123.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (123.9mm,47.121mm)(123.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (100.146mm,55.625mm)(102.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (79.396mm,55.625mm)(82.15mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (82.15mm,55.625mm)(84.904mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (102.9mm,47.121mm)(102.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (82.15mm,47.121mm)(82.15mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (64mm,69mm)(64mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (63.111mm,69mm)(64mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (64mm,69mm)(64.889mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (42.5mm,69mm)(42.5mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (41.611mm,69mm)(42.5mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (42.5mm,69mm)(43.389mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (61.65mm,55.625mm)(61.65mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (40.9mm,55.625mm)(40.9mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (22.25mm,69mm)(23.139mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (22.25mm,69mm)(22.25mm,69.889mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (21.361mm,69mm)(22.25mm,69mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (5mm,75mm)(7.754mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (5mm,72.246mm)(5mm,75mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (20.65mm,55.625mm)(20.65mm,64.129mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (61.65mm,55.625mm)(64.404mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (61.65mm,47.121mm)(61.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (58.896mm,55.625mm)(61.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (38.146mm,55.625mm)(40.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (40.9mm,55.625mm)(43.654mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (40.9mm,47.121mm)(40.9mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (20.65mm,55.625mm)(23.404mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (17.896mm,55.625mm)(20.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (20.65mm,47.121mm)(20.65mm,55.625mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (115.125mm,23.896mm)(115.125mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (115.125mm,26.65mm)(115.125mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (106.621mm,26.65mm)(115.125mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (115.125mm,26.65mm)(123.629mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (81.875mm,26.65mm)(81.875mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (73.371mm,26.65mm)(81.875mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (81.875mm,23.896mm)(81.875mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (81.875mm,26.65mm)(90.379mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (135.996mm,5mm)(138.75mm,5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (106.25mm,10.25mm)(107.139mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (106.25mm,9.361mm)(106.25mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (105.361mm,10.25mm)(106.25mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (72.611mm,10mm)(73.5mm,10mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (73.5mm,10mm)(74.389mm,10mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (73.5mm,9.111mm)(73.5mm,10mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (48.625mm,26.65mm)(57.129mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (48.625mm,26.65mm)(48.625mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (48.625mm,23.896mm)(48.625mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (40.121mm,26.65mm)(48.625mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (15.375mm,26.65mm)(23.879mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (15.375mm,26.65mm)(15.375mm,29.404mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (6.871mm,26.65mm)(15.375mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (15.375mm,23.896mm)(15.375mm,26.65mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (39.75mm,10mm)(40.639mm,10mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (39.75mm,9.111mm)(39.75mm,10mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (38.861mm,10mm)(39.75mm,10mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (7.111mm,10.25mm)(8mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (8mm,10.25mm)(8.889mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (8mm,9.361mm)(8mm,10.25mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (5mm,5mm)(7.754mm,5mm)  Bottom Layer
+   Violation between Width Constraint: Polygon Track (5mm,5mm)(5mm,7.754mm)  Bottom Layer
+Rule Violations :249
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint (2.946mm > 2.54mm) : Via (138.75mm,75mm) Top Layer to Bottom Layer
+   Violation between Hole Size Constraint (2.946mm > 2.54mm) : Via (138.75mm,5mm) Top Layer to Bottom Layer
+   Violation between Hole Size Constraint (2.946mm > 2.54mm) : Via (5mm,75mm) Top Layer to Bottom Layer
+   Violation between Hole Size Constraint (2.946mm > 2.54mm) : Via (5mm,5mm) Top Layer to Bottom Layer
+   Violation between Hole Size Constraint (2.946mm > 2.54mm) : Via (272.5mm,5mm) Top Layer to Bottom Layer
+   Violation between Hole Size Constraint (2.946mm > 2.54mm) : Via (272.5mm,75mm) Top Layer to Bottom Layer
+Rule Violations :6
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.025mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Text "S2_D2" (26.5mm,76mm)  Top Overlay and 
+                     Track (28.9mm,75.35mm)(31.1mm,75.35mm)  Top Overlay
+   Violation between Text "S1_D1" (21.75mm,70.25mm)  Top Overlay and 
+                     Track (28.45mm,67.45mm)(28.45mm,70.05mm)  Top Overlay
+   Violation between Text "S3_C2" (49.75mm,65.25mm)  Top Overlay and 
+                     Track (49.45mm,67.2mm)(52.55mm,67.2mm)  Top Overlay
+   Violation between Text "S4_C2" (70mm,65.25mm)  Top Overlay and 
+                     Track (69.95mm,67.2mm)(73.05mm,67.2mm)  Top Overlay
+   Violation between Text "S3_D1" (63.5mm,70.75mm)  Top Overlay and 
+                     Track (69.95mm,72.2mm)(69.95mm,74.65mm)  Top Overlay
+   Violation between Text "S5_D2" (88.75mm,76mm)  Top Overlay and 
+                     Track (91.15mm,75.35mm)(93.35mm,75.35mm)  Top Overlay
+   Violation between Text "S6_C2" (111.5mm,65.256mm)  Top Overlay and 
+                     Track (115.9mm,67.65mm)(116.35mm,67.2mm)  Top Overlay
+   Violation between Text "S6_C1" (120.496mm,65.344mm)  Top Overlay and 
+                     Track (121.2mm,67.2mm)(123.8mm,67.2mm)  Top Overlay
+   Violation between Text "S6_C2" (111.5mm,65.256mm)  Top Overlay and 
+                     Track (116.35mm,67.2mm)(118.8mm,67.2mm)  Top Overlay
+   Violation between Text "S6_C2" (111.5mm,65.256mm)  Top Overlay and 
+                     Track (111.45mm,67.2mm)(114.55mm,67.2mm)  Top Overlay
+   Violation between Text "S7_D3" (145.75mm,70.5mm)  Top Overlay and 
+                     Track (144.05mm,67.45mm)(144.05mm,70.55mm)  Top Overlay
+   Violation between Text "S7_D3" (145.75mm,70.5mm)  Top Overlay and 
+                     Track (141.45mm,70.55mm)(144.05mm,70.55mm)  Top Overlay
+   Violation between Text "S8_D2" (150.5mm,76mm)  Top Overlay and 
+                     Track (152.9mm,75.35mm)(155.1mm,75.35mm)  Top Overlay
+   Violation between Text "S9_C2" (173mm,65.256mm)  Top Overlay and 
+                     Track (177.15mm,67.65mm)(177.6mm,67.2mm)  Top Overlay
+   Violation between Text "S9_C1" (181.456mm,65.344mm)  Top Overlay and 
+                     Track (182.45mm,67.2mm)(185.05mm,67.2mm)  Top Overlay
+   Violation between Text "S9_C2" (173mm,65.256mm)  Top Overlay and 
+                     Track (177.6mm,67.2mm)(180.05mm,67.2mm)  Top Overlay
+   Violation between Text "S9_C2" (173mm,65.256mm)  Top Overlay and 
+                     Track (172.7mm,67.2mm)(175.8mm,67.2mm)  Top Overlay
+   Violation between Text "S10_D1" (205mm,70.704mm)  Top Overlay and 
+                     Track (205.3mm,67.45mm)(205.3mm,70.55mm)  Top Overlay
+   Violation between Text "S10_D1" (205mm,70.704mm)  Top Overlay and 
+                     Track (202.7mm,70.55mm)(205.3mm,70.55mm)  Top Overlay
+   Violation between Text "S10_D2" (189.5mm,75.924mm)  Top Overlay and 
+                     Track (193.15mm,75.35mm)(195.35mm,75.35mm)  Top Overlay
+   Violation between Text "S9_D1" (186mm,70.5mm)  Top Overlay and 
+                     Track (192.7mm,67.45mm)(192.7mm,70.05mm)  Top Overlay
+   Violation between Text "S11_D2" (210.25mm,76mm)  Top Overlay and 
+                     Track (215.6mm,75.35mm)(216.05mm,74.9mm)  Top Overlay
+   Violation between Text "S11_D2" (210.25mm,76mm)  Top Overlay and 
+                     Track (213.4mm,75.35mm)(215.6mm,75.35mm)  Top Overlay
+   Violation between Text "S10_D1" (205mm,70.704mm)  Top Overlay and 
+                     Track (212.95mm,72.45mm)(212.95mm,74.9mm)  Top Overlay
+   Violation between Text "S12_C2" (232.5mm,65.5mm)  Top Overlay and 
+                     Track (238.35mm,67.45mm)(240.8mm,67.45mm)  Top Overlay
+   Violation between Text "S12_C2" (232.5mm,65.5mm)  Top Overlay and 
+                     Track (233.45mm,67.45mm)(236.55mm,67.45mm)  Top Overlay
+   Violation between Text "S12_D2" (230.5mm,76mm)  Top Overlay and 
+                     Track (236.1mm,75.35mm)(236.55mm,74.9mm)  Top Overlay
+   Violation between Text "S12_D2" (230.5mm,76mm)  Top Overlay and 
+                     Track (233.9mm,75.35mm)(236.1mm,75.35mm)  Top Overlay
+   Violation between Text "S12_C2" (232.5mm,65.5mm)  Top Overlay and 
+                     Track (233.45mm,67.45mm)(233.45mm,70.05mm)  Top Overlay
+   Violation between Text "S11_D1" (226mm,70.844mm)  Top Overlay and 
+                     Track (233.45mm,72.45mm)(233.45mm,74.9mm)  Top Overlay
+   Violation between Text "S13_C1" (262.75mm,65.5mm)  Top Overlay and 
+                     Track (266.3mm,67.2mm)(266.3mm,70.3mm)  Top Overlay
+   Violation between Text "S13_C1" (262.75mm,65.5mm)  Top Overlay and 
+                     Track (263.7mm,67.2mm)(266.3mm,67.2mm)  Top Overlay
+   Violation between Text "S13_C2" (253mm,65.25mm)  Top Overlay and 
+                     Track (258.85mm,67.2mm)(261.3mm,67.2mm)  Top Overlay
+   Violation between Text "S13_C2" (253mm,65.25mm)  Top Overlay and 
+                     Track (253.95mm,67.2mm)(257.05mm,67.2mm)  Top Overlay
+   Violation between Text "S13_C2" (253mm,65.25mm)  Top Overlay and 
+                     Track (253.95mm,67.2mm)(253.95mm,69.8mm)  Top Overlay
+   Violation between Text "S12_D1" (246.25mm,70.844mm)  Top Overlay and 
+                     Track (253.95mm,72.2mm)(253.95mm,74.65mm)  Top Overlay
+   Violation between Text "S17_D1" (108.75mm,12.25mm)  Top Overlay and 
+                     Track (113.7mm,11.55mm)(116.15mm,11.55mm)  Top Overlay
+   Violation between Text "S18_D1" (141.5mm,12mm)  Top Overlay and 
+                     Track (146.95mm,11.3mm)(149.4mm,11.3mm)  Top Overlay
+   Violation between Text "S18_D3" (155mm,3.25mm)  Top Overlay and 
+                     Track (153.05mm,4.2mm)(153.05mm,7.3mm)  Top Overlay
+   Violation between Text "S18_D3" (155mm,3.25mm)  Top Overlay and 
+                     Track (150.45mm,4.2mm)(153.05mm,4.2mm)  Top Overlay
+   Violation between Text "S19_D2" (193.25mm,5.094mm)  Top Overlay and 
+                     Track (192.8mm,4.35mm)(192.8mm,6.8mm)  Top Overlay
+   Violation between Text "S20_D1" (207.75mm,11.916mm)  Top Overlay and 
+                     Track (213.2mm,11.3mm)(215.65mm,11.3mm)  Top Overlay
+   Violation between Text "S20_C2" (223.75mm,12mm)  Top Overlay and 
+                     Track (222.45mm,11.8mm)(225.55mm,11.8mm)  Top Overlay
+   Violation between Text "S20_C2" (223.75mm,12mm)  Top Overlay and 
+                     Track (225.55mm,9.2mm)(225.55mm,11.8mm)  Top Overlay
+   Violation between Text "S21_D1" (241.75mm,12mm)  Top Overlay and 
+                     Track (246.95mm,11.3mm)(249.4mm,11.3mm)  Top Overlay
+   Violation between Text "S21_C2" (257.148mm,12.25mm)  Top Overlay and 
+                     Track (255.95mm,11.8mm)(259.05mm,11.8mm)  Top Overlay
+   Violation between Text "S21_C2" (257.148mm,12.25mm)  Top Overlay and 
+                     Track (259.05mm,9.2mm)(259.05mm,11.8mm)  Top Overlay
+   Violation between Text "S1_C2" (8.25mm,65.25mm)  Top Overlay and 
+                     Track (11.275mm,64.769mm)(21.111mm,35.475mm)  Top Overlay
+   Violation between Text "S1_C1" (17.5mm,65.344mm)  Top Overlay and 
+                     Track (11.275mm,64.769mm)(24.125mm,64.769mm)  Top Overlay
+   Violation between Text "S1_C2" (8.25mm,65.25mm)  Top Overlay and 
+                     Track (11.275mm,64.769mm)(24.125mm,64.769mm)  Top Overlay
+   Violation between Text "S1_C2" (8.25mm,65.25mm)  Top Overlay and 
+                     Track (10.725mm,64.8mm)(20.561mm,35.506mm)  Top Overlay
+   Violation between Text "S2_C2" (28.5mm,65.256mm)  Top Overlay and 
+                     Track (31.525mm,64.769mm)(41.361mm,35.475mm)  Top Overlay
+   Violation between Text "S2_C2" (28.5mm,65.256mm)  Top Overlay and 
+                     Track (31.525mm,64.769mm)(44.375mm,64.769mm)  Top Overlay
+   Violation between Text "S2_C1" (37.5mm,65.344mm)  Top Overlay and 
+                     Track (31.525mm,64.769mm)(44.375mm,64.769mm)  Top Overlay
+   Violation between Text "S3_C1" (58.25mm,65.256mm)  Top Overlay and 
+                     Track (52.275mm,64.769mm)(65.125mm,64.769mm)  Top Overlay
+   Violation between Text "S3_C2" (49.75mm,65.25mm)  Top Overlay and 
+                     Track (52.275mm,64.769mm)(65.125mm,64.769mm)  Top Overlay
+   Violation between Text "S4_C2" (70mm,65.25mm)  Top Overlay and 
+                     Track (72.775mm,64.769mm)(82.611mm,35.475mm)  Top Overlay
+   Violation between Text "S4_C1" (78.75mm,65.25mm)  Top Overlay and 
+                     Track (72.775mm,64.769mm)(85.625mm,64.769mm)  Top Overlay
+   Violation between Text "S4_C2" (70mm,65.25mm)  Top Overlay and 
+                     Track (72.775mm,64.769mm)(85.625mm,64.769mm)  Top Overlay
+   Violation between Text "S5_C2" (90.75mm,65.256mm)  Top Overlay and 
+                     Track (93.525mm,64.769mm)(103.361mm,35.475mm)  Top Overlay
+   Violation between Text "S5_C1" (99.5mm,65.344mm)  Top Overlay and 
+                     Track (93.525mm,64.769mm)(106.375mm,64.769mm)  Top Overlay
+   Violation between Text "S5_C2" (90.75mm,65.256mm)  Top Overlay and 
+                     Track (93.525mm,64.769mm)(106.375mm,64.769mm)  Top Overlay
+   Violation between Text "S6_C2" (111.5mm,65.256mm)  Top Overlay and 
+                     Track (114.525mm,64.769mm)(124.361mm,35.475mm)  Top Overlay
+   Violation between Text "S6_C1" (120.496mm,65.344mm)  Top Overlay and 
+                     Track (114.525mm,64.769mm)(127.375mm,64.769mm)  Top Overlay
+   Violation between Text "S6_C2" (111.5mm,65.256mm)  Top Overlay and 
+                     Track (114.525mm,64.769mm)(127.375mm,64.769mm)  Top Overlay
+   Violation between Text "S7_C2" (131.75mm,65.25mm)  Top Overlay and 
+                     Track (134.775mm,64.769mm)(144.611mm,35.475mm)  Top Overlay
+   Violation between Text "S7_C1" (140.816mm,65.25mm)  Top Overlay and 
+                     Track (134.775mm,64.769mm)(147.625mm,64.769mm)  Top Overlay
+   Violation between Text "S7_C2" (131.75mm,65.25mm)  Top Overlay and 
+                     Track (134.775mm,64.769mm)(147.625mm,64.769mm)  Top Overlay
+   Violation between Text "S8_C2" (152.25mm,65.256mm)  Top Overlay and 
+                     Track (155.275mm,64.769mm)(165.111mm,35.475mm)  Top Overlay
+   Violation between Text "S8_C1" (161.25mm,65.256mm)  Top Overlay and 
+                     Track (155.275mm,64.769mm)(168.125mm,64.769mm)  Top Overlay
+   Violation between Text "S8_C2" (152.25mm,65.256mm)  Top Overlay and 
+                     Track (155.275mm,64.769mm)(168.125mm,64.769mm)  Top Overlay
+   Violation between Text "S9_C2" (173mm,65.256mm)  Top Overlay and 
+                     Track (175.525mm,64.769mm)(188.375mm,64.769mm)  Top Overlay
+   Violation between Text "S9_C1" (181.456mm,65.344mm)  Top Overlay and 
+                     Track (175.525mm,64.769mm)(188.375mm,64.769mm)  Top Overlay
+   Violation between Text "S10_C2" (191.5mm,65.25mm)  Top Overlay and 
+                     Track (195.525mm,64.769mm)(205.361mm,35.475mm)  Top Overlay
+   Violation between Text "S10_C2" (191.5mm,65.25mm)  Top Overlay and 
+                     Track (195.525mm,64.769mm)(208.375mm,64.769mm)  Top Overlay
+   Violation between Text "S10_C1" (201.5mm,65.344mm)  Top Overlay and 
+                     Track (195.525mm,64.769mm)(208.375mm,64.769mm)  Top Overlay
+   Violation between Text "S11_C1" (222.096mm,65.344mm)  Top Overlay and 
+                     Track (215.775mm,64.769mm)(228.625mm,64.769mm)  Top Overlay
+   Violation between Text "S11_C2" (212.549mm,65.256mm)  Top Overlay and 
+                     Track (215.775mm,64.769mm)(228.625mm,64.769mm)  Top Overlay
+   Violation between Text "S12_C1" (243.75mm,65.25mm)  Top Overlay and 
+                     Track (236.275mm,64.769mm)(249.125mm,64.769mm)  Top Overlay
+   Violation between Text "S12_C1" (243.75mm,65.25mm)  Top Overlay and 
+                     Track (249.125mm,32.95mm)(249.125mm,64.769mm)  Top Overlay
+   Violation between Text "S13_C2" (253mm,65.25mm)  Top Overlay and 
+                     Track (256.525mm,65.019mm)(266.361mm,35.725mm)  Top Overlay
+   Violation between Text "S13_C2" (253mm,65.25mm)  Top Overlay and 
+                     Track (256.525mm,65.019mm)(269.375mm,65.019mm)  Top Overlay
+   Violation between Text "S13_C1" (262.75mm,65.5mm)  Top Overlay and 
+                     Track (256.525mm,65.019mm)(269.375mm,65.019mm)  Top Overlay
+   Violation between Text "S13_C2" (253mm,65.25mm)  Top Overlay and 
+                     Track (255.975mm,65.05mm)(265.811mm,35.756mm)  Top Overlay
+   Violation between Text "S14_C2" (23.5mm,12.424mm)  Top Overlay and 
+                     Track (6.45mm,14.375mm)(38.269mm,14.375mm)  Top Overlay
+   Violation between Text "S14_D1" (10.25mm,12.424mm)  Top Overlay and 
+                     Track (6.45mm,14.375mm)(38.269mm,14.375mm)  Top Overlay
+   Violation between Text "S14_C1" (12.25mm,30.712mm)  Top Overlay and 
+                     Track (6.231mm,30.125mm)(38.05mm,30.125mm)  Top Overlay
+   Violation between Text "S15_C2" (58.25mm,12.424mm)  Top Overlay and 
+                     Track (39.7mm,14.375mm)(71.519mm,14.375mm)  Top Overlay
+   Violation between Text "S15_C1" (45.82mm,30.75mm)  Top Overlay and 
+                     Track (39.481mm,30.125mm)(71.3mm,30.125mm)  Top Overlay
+   Violation between Text "S16_C2" (90.75mm,12.424mm)  Top Overlay and 
+                     Track (72.95mm,14.375mm)(104.769mm,14.375mm)  Top Overlay
+   Violation between Text "S16_D1" (75.75mm,12.424mm)  Top Overlay and 
+                     Track (72.95mm,14.375mm)(104.769mm,14.375mm)  Top Overlay
+   Violation between Text "S16_C1" (78.332mm,30.75mm)  Top Overlay and 
+                     Track (72.731mm,30.125mm)(104.55mm,30.125mm)  Top Overlay
+   Violation between Text "S17_C2" (124.25mm,12.424mm)  Top Overlay and 
+                     Track (106.2mm,14.375mm)(138.019mm,14.375mm)  Top Overlay
+   Violation between Text "S17_C1" (112.368mm,30.75mm)  Top Overlay and 
+                     Track (105.981mm,30.125mm)(137.8mm,30.125mm)  Top Overlay
+   Violation between Text "S18_C2" (158mm,12.424mm)  Top Overlay and 
+                     Track (139.45mm,14.375mm)(171.269mm,14.375mm)  Top Overlay
+   Violation between Text "S18_C1" (145.388mm,30.75mm)  Top Overlay and 
+                     Track (139.231mm,30.125mm)(171.05mm,30.125mm)  Top Overlay
+   Violation between Text "S19_C2" (191mm,12.424mm)  Top Overlay and 
+                     Track (172.7mm,14.375mm)(204.519mm,14.375mm)  Top Overlay
+   Violation between Text "S19_C1" (178.408mm,30.75mm)  Top Overlay and 
+                     Track (172.481mm,30.125mm)(204.3mm,30.125mm)  Top Overlay
+   Violation between Text "S20_D3" (206.75mm,5.312mm)  Top Overlay and 
+                     Track (205.95mm,14.375mm)(237.769mm,14.375mm)  Top Overlay
+   Violation between Text "S20_C1" (211.936mm,30.75mm)  Top Overlay and 
+                     Track (205.731mm,30.125mm)(237.55mm,30.125mm)  Top Overlay
+   Violation between Text "S21_D3" (240mm,5.75mm)  Top Overlay and 
+                     Track (239.2mm,14.375mm)(241.725mm,17.389mm)  Top Overlay
+   Violation between Text "S21_D3" (240mm,5.75mm)  Top Overlay and 
+                     Track (239.2mm,14.375mm)(271.019mm,14.375mm)  Top Overlay
+   Violation between Text "S21_C1" (244.956mm,30.5mm)  Top Overlay and 
+                     Track (238.981mm,30.125mm)(270.8mm,30.125mm)  Top Overlay
+   Violation between Text "S7_D3" (145.75mm,70.5mm)  Top Overlay and 
+                     Track (146.45mm,74.7mm)(146.45mm,77.15mm)  Top Overlay
+   Violation between Text "S8_D3" (158.75mm,76mm)  Top Overlay and 
+                     Track (161.95mm,75.3mm)(164.4mm,75.3mm)  Top Overlay
+   Violation between Text "S19_C1" (178.408mm,30.75mm)  Top Overlay and 
+                     Track (176.189mm,61.994mm)(186.025mm,32.7mm)  Top Overlay
+   Violation between Text "S10_D1" (205mm,70.704mm)  Top Overlay and 
+                     Track (202.45mm,72.2mm)(204.9mm,72.2mm)  Top Overlay
+   Violation between Text "S10_D1" (205mm,70.704mm)  Top Overlay and 
+                     Track (204.9mm,72.2mm)(205.35mm,72.65mm)  Top Overlay
+   Violation between Text "S10_D3" (199.25mm,76mm)  Top Overlay and 
+                     Track (202.45mm,75.3mm)(204.9mm,75.3mm)  Top Overlay
+   Violation between Text "S10_D1" (205mm,70.704mm)  Top Overlay and 
+                     Track (205.35mm,72.65mm)(205.35mm,74.85mm)  Top Overlay
+   Violation between Text "S11_D3" (220mm,76mm)  Top Overlay and 
+                     Track (222.7mm,75.3mm)(225.15mm,75.3mm)  Top Overlay
+   Violation between Text "S11_D3" (220mm,76mm)  Top Overlay and 
+                     Track (225.15mm,75.3mm)(225.6mm,74.85mm)  Top Overlay
+   Violation between Text "S12_D3" (239.876mm,76mm)  Top Overlay and 
+                     Track (242.95mm,75.3mm)(245.4mm,75.3mm)  Top Overlay
+Rule Violations :113
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Room SolarPanel1 (Bounding Region = (178.943mm, 26.924mm, 778.51mm, 61.849mm) (InComponentClass('SolarPanel1'))
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on BottomLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+   Violation between Room Definition Between Component on TopLayer And Rule on TopLayer
+Rule Violations :106
+
+
+Violations Detected : 476
+Time Elapsed        : 00:00:06

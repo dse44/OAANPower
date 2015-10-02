@@ -1,0 +1,25 @@
+Added Pin To Net: NetName=NetD1_1 Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S2-2
+Added Pin To Net: NetName=NetD3_1 Pin=S3-2
+Added Pin To Net: NetName=GND Pin=S4-2
+Added Pin To Net: NetName=NetD5_1 Pin=S5-2
+Added Pin To Net: NetName=GND Pin=S6-2
+Added Pin To Net: NetName=NetD7_1 Pin=S7-2
+Added Pin To Net: NetName=GND Pin=S8-2
+Added Pin To Net: NetName=NetD9_1 Pin=S9-2
+Added Pin To Net: NetName=GND Pin=S10-2
+Added Pin To Net: NetName=NetD11_1 Pin=S11-2
+Added Pin To Net: NetName=GND Pin=S12-2
+Added Pin To Net: NetName=NetD13_1 Pin=S13-2
+Added Pin To Net: NetName=GND Pin=S14-2
+Added Pin To Net: NetName=NetD15_1 Pin=S15-2
+Added Pin To Net: NetName=GND Pin=S16-2
+Added Pin To Net: NetName=NetD17_1 Pin=S17-2
+Added Pin To Net: NetName=GND Pin=S18-2
+Added Pin To Net: NetName=NetD19_1 Pin=S19-2
+Added Pin To Net: NetName=GND Pin=S20-2
+Added Pin To Net: NetName=NetD21_1 Pin=S21-2
+Added Pin To Net: NetName=GND Pin=S22-2
+Added Pin To Net: NetName=NetD23_1 Pin=S23-2
+Added Pin To Net: NetName=GND Pin=S24-2
+Added Member To Class: ClassName=SolarPanel1 Member=Component D3 D Schottky

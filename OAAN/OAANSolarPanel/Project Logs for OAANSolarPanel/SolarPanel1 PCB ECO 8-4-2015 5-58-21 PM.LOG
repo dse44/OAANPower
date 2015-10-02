@@ -1,0 +1,146 @@
+Change Component Designator: OldDesignator=D29 NewDesignator=D41
+Change Component Designator: OldDesignator=D30 NewDesignator=D42
+Change Component Designator: OldDesignator=D31 NewDesignator=D43
+Change Component Designator: OldDesignator=D32 NewDesignator=D44
+Change Component Designator: OldDesignator=D33 NewDesignator=D45
+Change Component Designator: OldDesignator=D34 NewDesignator=D46
+Change Component Designator: OldDesignator=D35 NewDesignator=D47
+Change Component Designator: OldDesignator=D36 NewDesignator=D48
+Change Component Designator: OldDesignator=D37 NewDesignator=D49
+Change Component Designator: OldDesignator=D38 NewDesignator=D50
+Change Component Designator: OldDesignator=D39 NewDesignator=D51
+Change Component Designator: OldDesignator=D40 NewDesignator=D52
+Change Component Designator: OldDesignator=D41 NewDesignator=D53
+Change Component Designator: OldDesignator=D42 NewDesignator=D54
+Added Component: Designator=D29(SMB)
+Added Component: Designator=D30(SMB)
+Added Component: Designator=D31(SMB)
+Added Component: Designator=D32(SMB)
+Added Component: Designator=D33(SMB)
+Added Component: Designator=D34(SMB)
+Added Component: Designator=D35(SMB)
+Added Component: Designator=D36(SMB)
+Added Component: Designator=D37(SMB)
+Added Component: Designator=D38(SMB)
+Added Component: Designator=D39(SMB)
+Added Component: Designator=D40(SMB)
+Added Component: Designator=D55(SMB)
+Added Component: Designator=D56(SMB)
+Added Component: Designator=D57(SMB)
+Added Component: Designator=D58(SMB)
+Added Component: Designator=D59(SMB)
+Added Component: Designator=D60(SMB)
+Added Component: Designator=S29(PCBComponent_1)
+Added Component: Designator=S30(PCBComponent_1)
+Added Component: Designator=S31(PCBComponent_1)
+Added Component: Designator=S32(PCBComponent_1)
+Added Component: Designator=S33(PCBComponent_1)
+Added Component: Designator=S34(PCBComponent_1)
+Added Component: Designator=S35(PCBComponent_1)
+Added Component: Designator=S36(PCBComponent_1)
+Added Component: Designator=S37(PCBComponent_1)
+Added Component: Designator=S38(PCBComponent_1)
+Added Component: Designator=S39(PCBComponent_1)
+Added Component: Designator=S40(PCBComponent_1)
+Added Pin To Net: NetName=GND Pin=D29-1
+Added Pin To Net: NetName=GND Pin=D31-1
+Added Pin To Net: NetName=GND Pin=D33-1
+Added Pin To Net: NetName=GND Pin=D35-1
+Added Pin To Net: NetName=GND Pin=D37-1
+Added Pin To Net: NetName=GND Pin=D39-1
+Added Pin To Net: NetName=POSITIVE Pin=D55-2
+Added Pin To Net: NetName=POSITIVE Pin=D56-2
+Added Pin To Net: NetName=POSITIVE Pin=D57-2
+Added Pin To Net: NetName=POSITIVE Pin=D58-2
+Added Pin To Net: NetName=POSITIVE Pin=D59-2
+Added Pin To Net: NetName=POSITIVE Pin=D60-2
+Added Pin To Net: NetName=GND Pin=S29-2
+Added Pin To Net: NetName=GND Pin=S31-2
+Added Pin To Net: NetName=GND Pin=S33-2
+Added Pin To Net: NetName=GND Pin=S35-2
+Added Pin To Net: NetName=GND Pin=S37-2
+Added Pin To Net: NetName=GND Pin=S39-2
+Added Pin To Net: NetName=NetD29_2 Pin=D29-2
+Added Pin To Net: NetName=NetD29_2 Pin=D30-1
+Added Pin To Net: NetName=NetD29_2 Pin=S29-1
+Added Pin To Net: NetName=NetD29_2 Pin=S30-2
+Added Net: Name=NetD29_2
+Added Pin To Net: NetName=NetD30_2 Pin=D30-2
+Added Pin To Net: NetName=NetD30_2 Pin=D55-1
+Added Pin To Net: NetName=NetD30_2 Pin=S30-1
+Added Net: Name=NetD30_2
+Added Pin To Net: NetName=NetD31_2 Pin=D31-2
+Added Pin To Net: NetName=NetD31_2 Pin=D32-1
+Added Pin To Net: NetName=NetD31_2 Pin=S31-1
+Added Pin To Net: NetName=NetD31_2 Pin=S32-2
+Added Net: Name=NetD31_2
+Added Pin To Net: NetName=NetD32_2 Pin=D32-2
+Added Pin To Net: NetName=NetD32_2 Pin=D56-1
+Added Pin To Net: NetName=NetD32_2 Pin=S32-1
+Added Net: Name=NetD32_2
+Added Pin To Net: NetName=NetD33_2 Pin=D33-2
+Added Pin To Net: NetName=NetD33_2 Pin=D34-1
+Added Pin To Net: NetName=NetD33_2 Pin=S33-1
+Added Pin To Net: NetName=NetD33_2 Pin=S34-2
+Added Net: Name=NetD33_2
+Added Pin To Net: NetName=NetD34_2 Pin=D34-2
+Added Pin To Net: NetName=NetD34_2 Pin=D57-1
+Added Pin To Net: NetName=NetD34_2 Pin=S34-1
+Added Net: Name=NetD34_2
+Added Pin To Net: NetName=NetD35_2 Pin=D35-2
+Added Pin To Net: NetName=NetD35_2 Pin=D36-1
+Added Pin To Net: NetName=NetD35_2 Pin=S35-1
+Added Pin To Net: NetName=NetD35_2 Pin=S36-2
+Added Net: Name=NetD35_2
+Added Pin To Net: NetName=NetD36_2 Pin=D36-2
+Added Pin To Net: NetName=NetD36_2 Pin=D58-1
+Added Pin To Net: NetName=NetD36_2 Pin=S36-1
+Added Net: Name=NetD36_2
+Added Pin To Net: NetName=NetD37_2 Pin=D37-2
+Added Pin To Net: NetName=NetD37_2 Pin=D38-1
+Added Pin To Net: NetName=NetD37_2 Pin=S37-1
+Added Pin To Net: NetName=NetD37_2 Pin=S38-2
+Added Net: Name=NetD37_2
+Added Pin To Net: NetName=NetD38_2 Pin=D38-2
+Added Pin To Net: NetName=NetD38_2 Pin=D59-1
+Added Pin To Net: NetName=NetD38_2 Pin=S38-1
+Added Net: Name=NetD38_2
+Added Pin To Net: NetName=NetD39_2 Pin=D39-2
+Added Pin To Net: NetName=NetD39_2 Pin=D40-1
+Added Pin To Net: NetName=NetD39_2 Pin=S39-1
+Added Pin To Net: NetName=NetD39_2 Pin=S40-2
+Added Net: Name=NetD39_2
+Added Pin To Net: NetName=NetD40_2 Pin=D40-2
+Added Pin To Net: NetName=NetD40_2 Pin=D60-1
+Added Pin To Net: NetName=NetD40_2 Pin=S40-1
+Added Net: Name=NetD40_2
+Added Member To Class: ClassName=SolarPanel1 Member=Component D43 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D44 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D45 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D46 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D47 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D48 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D49 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D50 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D51 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D52 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D53 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D54 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D55 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D56 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D57 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D58 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D59 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D60 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component S29 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S30 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S31 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S32 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S33 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S34 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S35 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S36 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S37 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S38 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S39 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S40 TASC

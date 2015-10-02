@@ -1,0 +1,25 @@
+id: 0-1.0.r1/0
+type: dir
+count: 0
+cpath: /OAANSolarPanelRepository
+copyroot: 0 /
+
+PLAIN
+K 24
+OAANSolarPanelRepository
+V 14
+dir 0-1.0.r1/0
+END
+ENDREP
+id: 0.0.r1/149
+type: dir
+pred: 0.0.r0/17
+count: 1
+text: 1 82 54 0 aabc9b224553bb9cfbbdb00f63ac4ae0
+cpath: /
+copyroot: 0 /
+
+_0.0.t0-0 add-dir false false /OAANSolarPanelRepository
+
+
+149 272

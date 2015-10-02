@@ -1,0 +1,34 @@
+Change Component Designator: OldDesignator=D25 NewDesignator=D27
+Change Component Designator: OldDesignator=D26 NewDesignator=D28
+Change Component Designator: OldDesignator=D27 NewDesignator=D29
+Change Component Designator: OldDesignator=D28 NewDesignator=D30
+Change Component Designator: OldDesignator=D29 NewDesignator=D31
+Change Component Designator: OldDesignator=D30 NewDesignator=D32
+Change Component Designator: OldDesignator=D31 NewDesignator=D33
+Change Component Designator: OldDesignator=D32 NewDesignator=D34
+Change Component Designator: OldDesignator=D33 NewDesignator=D35
+Change Component Designator: OldDesignator=D34 NewDesignator=D36
+Change Component Designator: OldDesignator=D35 NewDesignator=D37
+Change Component Designator: OldDesignator=D36 NewDesignator=D38
+Added Component: Designator=3739(SMB)
+Added Component: Designator=D25(SMB)
+Added Component: Designator=D26(SMB)
+Added Component: Designator=S25(PCBComponent_1)
+Added Component: Designator=S26(PCBComponent_1)
+Added Pin To Net: NetName=POSITIVE Pin=3739-2
+Added Pin To Net: NetName=GND Pin=D25-1
+Added Pin To Net: NetName=GND Pin=S25-2
+Added Pin To Net: NetName=Net3739_1 Pin=3739-1
+Added Pin To Net: NetName=Net3739_1 Pin=D26-2
+Added Pin To Net: NetName=Net3739_1 Pin=S26-1
+Added Net: Name=Net3739_1
+Added Pin To Net: NetName=NetD25_2 Pin=D25-2
+Added Pin To Net: NetName=NetD25_2 Pin=D26-1
+Added Pin To Net: NetName=NetD25_2 Pin=S25-1
+Added Pin To Net: NetName=NetD25_2 Pin=S26-2
+Added Net: Name=NetD25_2
+Added Member To Class: ClassName=SolarPanel1 Member=Component 3739 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D37 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component D38 D Schottky
+Added Member To Class: ClassName=SolarPanel1 Member=Component S25 TASC
+Added Member To Class: ClassName=SolarPanel1 Member=Component S26 TASC

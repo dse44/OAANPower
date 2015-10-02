@@ -1,0 +1,22 @@
+Added Component: Designator=S24_C1(PCBComponent_1)
+Added Component: Designator=S24_C2(PCBComponent_1)
+Added Component: Designator=S24_D1(SMB)
+Added Component: Designator=S24_D2(SMB)
+Added Component: Designator=S24_D3(SMB)
+Added Pin To Net: NetName=GND Pin=S24_C1-2
+Added Pin To Net: NetName=GND Pin=S24_D1-1
+Added Pin To Net: NetName=POSITIVE Pin=S24_D3-2
+Added Pin To Net: NetName=NetS24_C1_1 Pin=S24_C1-1
+Added Pin To Net: NetName=NetS24_C1_1 Pin=S24_C2-2
+Added Pin To Net: NetName=NetS24_C1_1 Pin=S24_D1-2
+Added Pin To Net: NetName=NetS24_C1_1 Pin=S24_D2-1
+Added Net: Name=NetS24_C1_1
+Added Pin To Net: NetName=NetS24_C2_1 Pin=S24_C2-1
+Added Pin To Net: NetName=NetS24_C2_1 Pin=S24_D2-2
+Added Pin To Net: NetName=NetS24_C2_1 Pin=S24_D3-1
+Added Net: Name=NetS24_C2_1
+Added Member To Class: ClassName=x- Member=Component S24_C1 TASC
+Added Member To Class: ClassName=x- Member=Component S24_C2 TASC
+Added Member To Class: ClassName=x- Member=Component S24_D1 D Schottky
+Added Member To Class: ClassName=x- Member=Component S24_D2 D Schottky
+Added Member To Class: ClassName=x- Member=Component S24_D3 D Schottky

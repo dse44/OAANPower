@@ -1,0 +1,23 @@
+Removed Member From Class: ClassName=SolarPanel1 Member=D41
+Change Component Designator: OldDesignator=39 NewDesignator=D41
+Change Component Designator: OldDesignator=D25 NewDesignator=D26
+Change Component Designator: OldDesignator=D26 NewDesignator=D25
+Change Component Designator: OldDesignator=D27 NewDesignator=D29
+Change Component Designator: OldDesignator=D28 NewDesignator=D30
+Change Component Designator: OldDesignator=D29 NewDesignator=D31
+Change Component Designator: OldDesignator=D30 NewDesignator=D32
+Change Component Designator: OldDesignator=D31 NewDesignator=D33
+Change Component Designator: OldDesignator=D32 NewDesignator=D34
+Change Component Designator: OldDesignator=D33 NewDesignator=D35
+Change Component Designator: OldDesignator=D34 NewDesignator=D36
+Change Component Designator: OldDesignator=D35 NewDesignator=D37
+Change Component Designator: OldDesignator=D36 NewDesignator=D38
+Change Component Designator: OldDesignator=D37 NewDesignator=D39
+Change Component Designator: OldDesignator=D38 NewDesignator=D40
+Change Component Designator: OldDesignator=D40 NewDesignator=D28
+Change Component Designator: OldDesignator=D41 NewDesignator=D27
+Change Net Name : Old Net Name=Net39_1 New Net Name=NetD25_2
+Change Net Name : Old Net Name=NetD25_2 New Net Name=NetD25_1
+Change Net Name : Old Net Name=NetD40_2 New Net Name=NetD27_1
+Change Net Name : Old Net Name=NetD41_2 New Net Name=NetD27_2
+Added Member To Class: ClassName=SolarPanel1 Member=Component D39 D Schottky

@@ -1,0 +1,16 @@
+Added Component: Designator=S22_C1(PCBComponent_1)
+Added Component: Designator=S22_C2(PCBComponent_1)
+Added Component: Designator=S23_C1(PCBComponent_1)
+Added Component: Designator=S23_C2(PCBComponent_1)
+Added Pin To Net: NetName=NetS22_C1_1 Pin=S22_C1-1
+Added Pin To Net: NetName=GND Pin=S22_C1-2
+Added Pin To Net: NetName=NetS22_C2_1 Pin=S22_C2-1
+Added Pin To Net: NetName=NetS22_C1_1 Pin=S22_C2-2
+Added Pin To Net: NetName=NetS23_C1_1 Pin=S23_C1-1
+Added Pin To Net: NetName=GND Pin=S23_C1-2
+Added Pin To Net: NetName=NetS23_C2_1 Pin=S23_C2-1
+Added Pin To Net: NetName=NetS23_C1_1 Pin=S23_C2-2
+Added Member To Class: ClassName=x- Member=Component S22_C1 TASC
+Added Member To Class: ClassName=x- Member=Component S22_C2 TASC
+Added Member To Class: ClassName=x- Member=Component S23_C1 TASC
+Added Member To Class: ClassName=x- Member=Component S23_C2 TASC
