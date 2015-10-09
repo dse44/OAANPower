@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+<ReadMe>
+
+This XML can be imported in Altium Designer 14 using WEBENCH Altium Connector Extension and simulated using WEBENCH Simulation Engine.
+The WEBENCH Altium Connector provides an interface to the Texas Instruments WEBENCH Designer Tools as well as to open WEBENCH exported Designs directly from inside Altium Designer.
+It also includes the advanced WEBENCH Simulation Engine which can be used for offline circuit simulations.
+You will need a activation key from TI to be able to use the WEBENCH Simulation Engine.
+You can download the WEBENCH extension from Altium Designer 14 Extensions.
+
+Press Release:
+http://www.altium.com/en/altium/press-center/press-releases/altium-designer-connects-ti%E2%80%99s-webench%C2%AE-power-supply-tools-fast
+
+How to use:
+http://blog.live.altium.com/#Blogs/ti-webench-release
+
+Connector Details
+http://techdocs.altium.com/display/ATPE/WEBENCH+Altium+Connector
+
+User Manual:
+http://techdocs.altium.com/sites/default/files/wiki_attachments/235782/WEBENCH_Altium_Connector_User_Guide_v1.2.pdf
+
+</ReadMe>
+-->
+<schematic>
+  <circuit>
+    <text id="T_123456" position="400,-148" fontname="Times New Roman" fontsize="27" bold="0" color="#294901">
+      <![CDATA[TPS61088 Startup Simulation
+(Exported from WEBENCH® Designer)]]>
+    </text>
+    <text id="T_123456" position="945,-148" fontname="Arial" fontsize="13" bold="1" italic="1" color="#278190" border="1">
+      <![CDATA[Title :    TPS61088RHLR 6.0V-8.4V to 12.00V @ 3.5A
+-------------------------------------------------------------------------
+WEBENCH® User ID                      :       4267293
+WEBENCH® Design ID                  :       20
+Date of WEBENCH® Export           :       10-Oct-2015
+Time of WEBENCH® Export          :       3:55:01 AM
+WEBENCH® Export Tool Version :       E1.51-X2.01]]>
+    </text>
+    <component type="Cbst" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="2840,420" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Cbst 12 7
+Cbst 12 7 1.0E-7
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="60,24,-60,-24"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-60,0,-40,0"/>
+        <shape type="line" width="Hair" color="#0000ff" points="60,0,40,0"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,-24,-6,24"/>
+        <shape type="line" width="1" color="#0000ff" points="40,0,6,0"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,0,-40,0"/>
+        <shape type="line" width="1" color="#0000ff" points="6,-24,6,24"/>
+        <legend text="100 nF" position="18,10" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="20.413 mOhm" position="18,26" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="18,40" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="-60,0" dir="0" length="0" text="12"/>
+        <pin position="60,0" dir="0" length="0" text="7"/>
+        <label text="Cbst" position="2850,402" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Ccomp" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="1610,1060" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Ccomp 14 0
+Ccomp 14 0 2.2E-10
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="0.22 nF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="14"/>
+        <pin position="0,60" dir="0" length="0" text="0"/>
+        <label text="Ccomp" position="1616,1038" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Ccomp2" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="1420,880" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Ccomp2 4 0
+Ccomp2 4 0 1.0E-11
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="10 pF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="4"/>
+        <pin position="0,60" dir="0" length="0" text="0"/>
+        <label text="Ccomp2" position="1426,858" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Cin" typeid="57" position="700,880" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT MAIN_BLOCK_Cin_WB_CAP_POLARIZED 1 2
+* C = 2.0E-5 F
+* ESR = 1.0E-4 Ohm
+
+Ccap 1 3 2.0E-5
+Resr 3 2 1.0E-4
+
+.ENDS]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="10 uF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="qty=2" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="1"/>
+        <pin position="0,60" dir="0" length="0" text="2"/>
+        <label text="Cin" position="706,858" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Cin2" typeid="57" position="950,880" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT MAIN_BLOCK_Cin2_WB_CAP_POLARIZED 1 2
+* C = 1.0E-7 F
+* ESR = 1.0E-4 Ohm
+
+Ccap 1 3 1.0E-7
+Resr 3 2 1.0E-4
+
+.ENDS]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="100 nF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="1"/>
+        <pin position="0,60" dir="0" length="0" text="2"/>
+        <label text="Cin2" position="956,858" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Cout" typeid="57" position="3320,960" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT MAIN_BLOCK_Cout_WB_CAP_CERAMIC 2 4
+*FAMILY = ANALOG
+*FAMILY = ANALOG
+R1 2 3 0.002246
+C1 3 4 2.1990865051903113E-5 IC=0.0
+R3 5 4 5; free space reduced by sqrt(dielectric constant)
+R2 2 4 4.547342715440196E7
+R4 3 26 499111.11111111124
+R6 3 7 499.11111111111126
+C5 7 1 6.597259515570934E-7 IC=0.0
+R7 3 10 49.911111111111126
+C6 10 1 6.597259515570934E-7 IC=0.0
+R8 3 13 4.991111111111112
+C7 13 1 6.597259515570934E-7 IC=0.0
+C2 26 1 6.597259515570934E-7 IC=0.0
+R9 3 28 49911.111111111124
+C3 28 1 6.597259515570934E-7 IC=0.0
+R10 3 29 4991.111111111112
+C4 29 1 6.597259515570934E-7 IC=0.0
+L8 1 5 15p
+R24 1 5 0.006738000000000001
+L12 5 4 1n
+.ENDS]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="22 uF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="2.246 mOhm" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="2"/>
+        <pin position="0,60" dir="0" length="0" text="4"/>
+        <label text="Cout" position="3326,938" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Css" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="2040,970" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Css 6 0
+Css 6 0 8.2E-9
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="8.2 nF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="6"/>
+        <pin position="0,60" dir="0" length="0" text="0"/>
+        <label text="Css" position="2046,948" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Cvcc" typeid="57" position="1200,880" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT MAIN_BLOCK_Cvcc_WB_CAP_POLARIZED 1 2
+* C = 1.0E-6 F
+* ESR = 0.009603 Ohm
+
+Ccap 1 3 1.0E-6
+Resr 3 2 0.009603
+
+.ENDS]]>
+      </parameter>
+      <image>
+        <hotzone points="-24,60,24,-60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,-6,-24,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,0,6"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-6,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="24,6,-24,6"/>
+        <legend text="1 uF" position="8,18" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="9.603 mOhm" position="8,32" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="" position="8,48" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="1"/>
+        <pin position="0,60" dir="0" length="0" text="2"/>
+        <label text="Cvcc" position="1206,858" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Ground" typeid="2" position="1930,1280" orientation="0" mirrored="0">
+      <image>
+        <label text="GND1" position="1930,1280" textroot="GND1" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="ICin" typeid="34" position="700,560" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT ICin 1 2 
+V_Iprobe 1 2 0.0
+.ENDS
+]]>
+      </parameter>
+      <parameter idx="1" name="VALUE" value="0"/>
+      <image>
+        <hotzone points="6,-30,-6,30"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-30,0,30"/>
+        <shape type="line" width="1" color="#0000ff" points="4,-6,-4,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="-4,-6,0,4"/>
+        <shape type="line" width="1" color="#0000ff" points="0,4,4,-6"/>
+        <pin position="0,-30" dir="0" length="0" text="1"/>
+        <pin position="0,30" dir="0" length="0" text="2"/>
+        <label text="ICin" position="700,560" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="ICout" typeid="34" position="3320,870" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT ICout 1 2 
+V_Iprobe 1 2 0.0
+.ENDS
+]]>
+      </parameter>
+      <parameter idx="1" name="VALUE" value="0"/>
+      <image>
+        <hotzone points="6,-30,-6,30"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-30,0,30"/>
+        <shape type="line" width="1" color="#0000ff" points="4,-6,-4,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="-4,-6,0,4"/>
+        <shape type="line" width="1" color="#0000ff" points="0,4,4,-6"/>
+        <pin position="0,-30" dir="0" length="0" text="1"/>
+        <pin position="0,30" dir="0" length="0" text="2"/>
+        <label text="ICout" position="3320,870" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="IIn" typeid="34" position="340,420" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT IIn 1 2 
+V_Iprobe 1 2 0.0
+.ENDS
+]]>
+      </parameter>
+      <parameter idx="1" name="VALUE" value="0"/>
+      <image>
+        <hotzone points="-30,-6,30,6"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-30,0,30,0"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,-4,-6,4"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,4,4,0"/>
+        <shape type="line" width="1" color="#0000ff" points="4,0,-6,-4"/>
+        <pin position="-30,0" dir="0" length="0" text="1"/>
+        <pin position="30,0" dir="0" length="0" text="2"/>
+        <label text="IIn" position="340,420" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="IInductor" typeid="34" position="2470,200" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT IInductor 1 2 
+V_Iprobe 1 2 0.0
+.ENDS
+]]>
+      </parameter>
+      <parameter idx="1" name="VALUE" value="0"/>
+      <image>
+        <hotzone points="-30,-6,30,6"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-30,0,30,0"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,-4,-6,4"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,4,4,0"/>
+        <shape type="line" width="1" color="#0000ff" points="4,0,-6,-4"/>
+        <pin position="-30,0" dir="0" length="0" text="1"/>
+        <pin position="30,0" dir="0" length="0" text="2"/>
+        <label text="IInductor" position="2470,200" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="IOut" typeid="34" position="3740,660" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT IOut 1 2 
+V_Iprobe 1 2 0.0
+.ENDS
+]]>
+      </parameter>
+      <parameter idx="1" name="VALUE" value="0"/>
+      <image>
+        <hotzone points="-30,-6,30,6"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-30,0,30,0"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,-4,-6,4"/>
+        <shape type="line" width="1" color="#0000ff" points="-6,4,4,0"/>
+        <shape type="line" width="1" color="#0000ff" points="4,0,-6,-4"/>
+        <pin position="-30,0" dir="0" length="0" text="1"/>
+        <pin position="30,0" dir="0" length="0" text="2"/>
+        <label text="IOut" position="3740,660" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="L1" typeid="57" position="2560,200" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT MAIN_BLOCK_L1_WB_INDUCTOR 1 2
+*{ L = 6.0E-7 DCR = 0.0095 }
+* PARAMETERS: L INDUCTANCE IN HENRIES, DCR DC SERIES RESISTANCE IN OHMS
+
+L1 2 3 6.0E-7 IC = 0
+RDCR 3 1 0.0095
+
+.ENDS]]>
+      </parameter>
+      <image>
+        <hotzone points="-60,-10,60,10"/>
+        <shape type="line" width="Hair" color="#0000ff" points="30,0,60,0"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-30,0,-60,0"/>
+        <legend text="0.6 uH" position="-30,8" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <legend text="9.5 mOhm" position="-30,22" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <shape type="arc" color="#0000ff" width="2" points="-30,-10,-10,10,90,90"/>
+        <shape type="arc" color="#0000ff" width="2" points="-30,-10,-10,10,0,90"/>
+        <shape type="arc" color="#0000ff" width="2" points="-10,-10,10,10,90,90"/>
+        <shape type="arc" color="#0000ff" width="2" points="-10,-10,10,10,0,90"/>
+        <shape type="arc" color="#0000ff" width="2" points="10,-10,30,10,90,90"/>
+        <shape type="arc" color="#0000ff" width="2" points="10,-10,30,10,0,90"/>
+        <pin position="-60,0" dir="0" length="0" text="1"/>
+        <pin position="60,0" dir="0" length="0" text="2"/>
+        <label text="L1" position="2526,170" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <wire points="180,700,180,720" label=""/>
+    <wire points="3840,660,3860,660" label=""/>
+    <wire points="3840,1100,3860,1100" label=""/>
+    <wire points="180,1000,180,1020" label=""/>
+    <component type="Rcomp" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="1610,830" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Rcomp 4 14
+Rcomp 4 14 49900.0
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-10,60,10,-60"/>
+        <shape type="line" width="1" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,-10,30"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,30,10,10"/>
+        <shape type="line" width="1" color="#0000ff" points="10,10,-10,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,-10,10,-30"/>
+        <shape type="line" width="1" color="#0000ff" points="10,-30,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-40,0,-60"/>
+        <legend text="49.9 kOhm" position="10,-8" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="4"/>
+        <pin position="0,60" dir="0" length="0" text="14"/>
+        <label text="Rcomp" position="1628,800" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Rfbb" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="3040,1130" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Rfbb 8 0
+Rfbb 8 0 82000.0
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-10,60,10,-60"/>
+        <shape type="line" width="1" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,-10,30"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,30,10,10"/>
+        <shape type="line" width="1" color="#0000ff" points="10,10,-10,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,-10,10,-30"/>
+        <shape type="line" width="1" color="#0000ff" points="10,-30,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-40,0,-60"/>
+        <legend text="82 kOhm" position="10,-8" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="8"/>
+        <pin position="0,60" dir="0" length="0" text="0"/>
+        <label text="Rfbb" position="3058,1100" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Rfbt" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="3040,830" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Rfbt 9 8
+Rfbt 9 8 732000.0
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-10,60,10,-60"/>
+        <shape type="line" width="1" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,-10,30"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,30,10,10"/>
+        <shape type="line" width="1" color="#0000ff" points="10,10,-10,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,-10,10,-30"/>
+        <shape type="line" width="1" color="#0000ff" points="10,-30,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-40,0,-60"/>
+        <legend text="0.732 MOhm" position="10,-8" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="9"/>
+        <pin position="0,60" dir="0" length="0" text="8"/>
+        <label text="Rfbt" position="3058,800" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Rlim" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="1820,960" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Rlim 5 0
+Rlim 5 0 113000.0
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-10,60,10,-60"/>
+        <shape type="line" width="1" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,-10,30"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,30,10,10"/>
+        <shape type="line" width="1" color="#0000ff" points="10,10,-10,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,-10,10,-30"/>
+        <shape type="line" width="1" color="#0000ff" points="10,-30,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-40,0,-60"/>
+        <legend text="0.113 MOhm" position="10,-8" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="5"/>
+        <pin position="0,60" dir="0" length="0" text="0"/>
+        <label text="Rlim" position="1838,930" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="Rt" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="3230,380" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt MAIN_BLOCK_WB_TPS61088_BOOST_BLOCK_Rt 7 10
+Rt 7 10 82000.0
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-10,60,10,-60"/>
+        <shape type="line" width="1" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,-10,30"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,30,10,10"/>
+        <shape type="line" width="1" color="#0000ff" points="10,10,-10,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,-10,10,-30"/>
+        <shape type="line" width="1" color="#0000ff" points="10,-30,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-40,0,-60"/>
+        <legend text="82 kOhm" position="10,-8" orientation="0" fontname="Arial" fontsize="12" bold="0" italic="0" color="#229922"/>
+        <pin position="0,-60" dir="0" length="0" text="7"/>
+        <pin position="0,60" dir="0" length="0" text="10"/>
+        <label text="Rt" position="3248,350" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="U1_TPS61088RHLR" typeid="57" position="2560,620" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***
+*$
+*U1_TPS61088RHLR
+*****************************************************************************
+* (C) Copyright 2013 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of
+** merchantability or fitness for a particular purpose. The model is
+** provided solely on an "as is" basis. The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+** Released by: WEBENCH(R) Design Center, Texas Instruments Inc.
+* Part: U1_TPS61088RHLR
+* Model Type: Transient
+* Simulator: TINA
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+***************************************************************************
+.SUBCKT MAIN_BLOCK_U1_WB_TPS61088RHL_ENCR VCC EN FSW SW_0 SW_1 SW_2 SW_3 BOOT VIN SS NC_0 NC_1 MODE  VOUT_0 VOUT_1 VOUT_2 FB COMP ILIM     AGND PGND
+.include pspice://../MAIN_BLOCK.U1.WB_TPS61088RHL.enl
+XCALL VCC EN FSW SW_0 SW_1 SW_2 SW_3 BOOT VIN SS NC_0 NC_1 MODE  VOUT_0 VOUT_1 VOUT_2 FB COMP ILIM     AGND PGND MAIN_BLOCK_U1_WB_TPS61088RHL 
+.ENDS
+]]>
+      </parameter>
+      <image>
+        <hotzone points="-140,-280,140,280"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-100,240,100,240"/>
+        <shape type="line" width="Hair" color="#0000ff" points="100,240,100,-240"/>
+        <shape type="line" width="Hair" color="#0000ff" points="100,-240,-100,-240"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-100,-240,-100,240"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,-160,-100,-160"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,-80,-100,-80"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,-40,100,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,-140,100,-140"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,-120,100,-120"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,-100,100,-100"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,-80,100,-80"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,-200,100,-200"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,-200,-100,-200"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,80,-100,80"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,200,-100,200"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,220,-100,220"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,140,-100,140"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,0,100,0"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,20,100,20"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,40,100,40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,120,100,120"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,-20,-100,-20"/>
+        <shape type="line" width="Hair" color="#0000ff" points="-140,40,-100,40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,180,100,180"/>
+        <shape type="line" width="Hair" color="#0000ff" points="140,220,100,220"/>
+        <shape type="line" width="1" color="#ff0000" points="-1,-215,-2,-210"/>
+        <shape type="line" width="1" color="#ff0000" points="-1,-217,-1,-217"/>
+        <shape type="polygon" width="1" color="#ff0000" fill="#ff0000" points="-7,-219,-7,-213,-11,-213,-11,-212,-10,-211,-9,-209,-8,-208,-7,-208,-6,-209,-5,-208,-4,-206,-1,-204,0,-204,0,-206,1,-208,3,-209,4,-210,4,-213,3,-214,3,-216,1,-216,0,-214,2,-214,1,-212,0,-212,-1,-210,0,-210,0,-209,-1,-208,-3,-208,-4,-209,-3,-212,-5,-212,-4,-214,-3,-214,-3,-214,-2,-216,-4,-216,-4,-218,-4,-219"/>
+        <legend text="TPS61088RHL" position="-44,-184" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4278190208"/>
+        <pin position="-140,-160" dir="0" length="0" text="VCC">
+          <legend text="VCC" position="-118,-170" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,-80" dir="0" length="0" text="EN">
+          <legend text="EN" position="-118,-90" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,-40" dir="0" length="0" text="FSW">
+          <legend text="FSW" position="90,-50" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,-140" dir="0" length="0" text="SW_0">
+          <legend text="SW_0" position="80,-150" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,-120" dir="0" length="0" text="SW_1">
+          <legend text="SW_1" position="80,-130" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,-100" dir="0" length="0" text="SW_2">
+          <legend text="SW_2" position="80,-110" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,-80" dir="0" length="0" text="SW_3">
+          <legend text="SW_3" position="80,-90" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,-200" dir="0" length="0" text="BOOT">
+          <legend text="BOOT" position="80,-210" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,-200" dir="0" length="0" text="VIN">
+          <legend text="VIN" position="-118,-210" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,80" dir="0" length="0" text="SS">
+          <legend text="SS" position="-118,70" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,200" dir="0" length="0" text="NC_0">
+          <legend text="NC_0" position="-118,190" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,220" dir="0" length="0" text="NC_1">
+          <legend text="NC_1" position="-118,210" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,140" dir="0" length="0" text="MODE">
+          <legend text="MODE" position="-118,130" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,0" dir="0" length="0" text="VOUT_0">
+          <legend text="VOUT_0" position="60,-10" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,20" dir="0" length="0" text="VOUT_1">
+          <legend text="VOUT_1" position="60,10" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,40" dir="0" length="0" text="VOUT_2">
+          <legend text="VOUT_2" position="60,30" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,120" dir="0" length="0" text="FB">
+          <legend text="FB" position="100,110" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,-20" dir="0" length="0" text="COMP">
+          <legend text="COMP" position="-118,-30" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="-140,40" dir="0" length="0" text="ILIM">
+          <legend text="ILIM" position="-118,30" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,180" dir="0" length="0" text="AGND">
+          <legend text="AGND" position="80,170" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <pin position="140,220" dir="0" length="0" text="PGND">
+          <legend text="PGND" position="80,210" orientation="0" fontname="Arial" fontsize="10" bold="0" italic="0" color="4286578688"/>
+        </pin>
+        <label text="U1_TPS61088RHLR" position="2420,320" textroot="U1_TPS61088RHLR" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="VComp" typeid="4" position="1630,600" orientation="0" mirrored="0">
+      <image>
+        <label text="VComp" position="1630,570" textroot="VComp" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="VEN" typeid="4" position="2380,540" orientation="0" mirrored="0">
+      <image>
+        <label text="VEN" position="2380,510" textroot="VEN" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="VFb" typeid="4" position="2930,1000" orientation="0" mirrored="0">
+      <image>
+        <label text="VFb" position="2930,970" textroot="VFb" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="VIn" typeid="4" position="780,420" orientation="0" mirrored="0">
+      <image>
+        <label text="VIn" position="780,390" textroot="VIn" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="VOut" typeid="4" position="3460,660" orientation="0" mirrored="0">
+      <image>
+        <label text="VOut" position="3460,630" textroot="VOut" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <component type="VSwitch" typeid="4" position="3040,200" orientation="0" mirrored="0">
+      <image>
+        <label text="VSwitch" position="3040,170" textroot="VSwitch" orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <wire points="180,1280,180,1020" label=""/>
+    <wire points="180,420,180,700" label=""/>
+    <wire points="310,420,180,420" label=""/>
+    <wire points="370,420,1950,420" label=""/>
+    <wire points="700,940,700,1280" label=""/>
+    <wire points="700,820,700,590" label=""/>
+    <wire points="700,420,700,530" label=""/>
+    <wire points="950,940,950,1280" label=""/>
+    <wire points="950,420,950,820" label=""/>
+    <wire points="1200,940,1200,1280" label=""/>
+    <wire points="1200,460,1200,820" label=""/>
+    <wire points="1420,940,1420,1280" label=""/>
+    <wire points="1420,820,1420,600" label=""/>
+    <wire points="1610,1120,1610,1280" label=""/>
+    <wire points="1610,890,1610,1000" label=""/>
+    <wire points="1610,770,1610,600" label=""/>
+    <wire points="1610,600,1420,600" label=""/>
+    <wire points="1610,600,2420,600" label=""/>
+    <wire points="1820,1020,1820,1280" label=""/>
+    <wire points="1820,660,1820,900" label=""/>
+    <wire points="1950,420,2420,420" label=""/>
+    <wire points="1950,200,1950,420" label=""/>
+    <wire points="1950,200,2440,200" label=""/>
+    <wire points="2040,1030,2040,1280" label=""/>
+    <wire points="2040,910,2040,700" label=""/>
+    <wire points="2310,540,2310,460" label=""/>
+    <wire points="2310,540,2420,540" label=""/>
+    <wire points="2420,820,2420,1280" label=""/>
+    <wire points="2420,700,2040,700" label=""/>
+    <wire points="2420,660,1820,660" label=""/>
+    <wire points="2420,460,1200,460" label=""/>
+    <wire points="2620,200,3040,200" label=""/>
+    <wire points="2700,800,2700,1280" label=""/>
+    <wire points="2700,740,2870,740" label=""/>
+    <wire points="2700,660,3040,660" label=""/>
+    <wire points="2700,620,2700,660" label=""/>
+    <wire points="2700,580,2780,580" label=""/>
+    <wire points="2700,480,2700,540" label=""/>
+    <wire points="2700,420,2740,420" label=""/>
+    <wire points="2740,420,2780,420" label=""/>
+    <wire points="2870,1000,3040,1000" label=""/>
+    <wire points="2870,740,2870,1000" label=""/>
+    <wire points="2900,420,3040,420" label=""/>
+    <wire points="3040,1190,3040,1280" label=""/>
+    <wire points="3040,1000,3040,1070" label=""/>
+    <wire points="3040,890,3040,1000" label=""/>
+    <wire points="3040,660,3040,770" label=""/>
+    <wire points="3040,660,3320,660" label=""/>
+    <wire points="3040,540,2700,540" label=""/>
+    <wire points="3040,420,3040,540" label=""/>
+    <wire points="3040,200,3040,420" label=""/>
+    <wire points="3040,200,3230,200" label=""/>
+    <wire points="3230,580,2780,580" label=""/>
+    <wire points="3230,440,3230,580" label=""/>
+    <wire points="3230,200,3230,320" label=""/>
+    <wire points="3320,1020,3320,1280" label=""/>
+    <wire points="3320,660,3320,840" label=""/>
+    <wire points="3320,660,3710,660" label=""/>
+    <wire points="3650,1280,180,1280" label=""/>
+    <wire points="3650,1100,3650,1280" label=""/>
+    <wire points="3650,1100,3840,1100" label=""/>
+    <wire points="3770,660,3840,660" label=""/>
+    <wire points="180,720,180,740" label=""/>
+    <wire points="180,1140,180,1160" label=""/>
+    <component type="Vin_2" typeid="57" position="180,880" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT INPUT_BLOCK_Vin_WB_STARTUP_VOLTAGE_SOURCE 1 2
+Rsource 3 1 1m
+Vin1 3 2 PULSE 0 7.2 1u 100u
+.ENDS]]>
+      </parameter>
+      <image>
+        <hotzone points="30,-60,-30,60"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,60,0,30"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-60,0,-30"/>
+        <shape type="line" width="Hair" color="#0000ff" points="20,-30,20,-40"/>
+        <shape type="line" width="Hair" color="#0000ff" points="14,-34,26,-34"/>
+        <shape type="line" width="Hair" color="#0000ff" points="14,34,26,34"/>
+        <shape type="line" width="1" color="#0000ff" points="-22,10,-16,10"/>
+        <shape type="line" width="1" color="#0000ff" points="-16,10,-14,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-14,-10,22,-10"/>
+        <shape type="ellipse" points="-30,30,30,-30" color="#0000ff" width="2"/>
+        <pin position="0,-60" dir="0" length="0" text="1"/>
+        <pin position="0,60" dir="0" length="0" text="2"/>
+        <label text="Vin_2" position="210,850" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <wire points="180,940,180,1140" label=""/>
+    <wire points="180,820,180,740" label=""/>
+    <component type="ILoad_1" typeid="34" position="3860,770" mirrored="0" nodematch="0" macrotype="2" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[***********************************
+*     Created by WB Importer      *
+***********************************
+.SUBCKT ILoad_1 1 2 
+V_Iprobe 1 2 0.0
+.ENDS
+]]>
+      </parameter>
+      <parameter idx="1" name="VALUE" value="0"/>
+      <image>
+        <hotzone points="6,-30,-6,30"/>
+        <shape type="line" width="Hair" color="#0000ff" points="0,-30,0,30"/>
+        <shape type="line" width="1" color="#0000ff" points="4,-6,-4,-6"/>
+        <shape type="line" width="1" color="#0000ff" points="-4,-6,0,4"/>
+        <shape type="line" width="1" color="#0000ff" points="0,4,4,-6"/>
+        <pin position="0,-30" dir="0" length="0" text="1"/>
+        <pin position="0,30" dir="0" length="0" text="2"/>
+        <label text="ILoad_1" position="3860,770" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <wire points="3860,660,3860,680" label=""/>
+    <wire points="3860,1080,3860,1100" label=""/>
+    <component type="Rload" mirrored="0" typeid="57" nodematch="0" macrotype="2" position="3860,960" orientation="0">
+      <parameter idx="0" encrypted="0">
+        <![CDATA[
+***********************************
+*     Created by WB Importer      *
+***********************************
+.subckt load_1_WB_OUTPUT_BLOCK_STARTUP_PROBE_Rload 1 2
+Rload 1 2 3.4285714285714284
+
+.ends]]>
+      </parameter>
+      <image>
+        <hotzone points="-10,60,10,-60"/>
+        <shape type="line" width="1" color="#0000ff" points="0,60,0,40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,40,-10,30"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,30,10,10"/>
+        <shape type="line" width="1" color="#0000ff" points="10,10,-10,-10"/>
+        <shape type="line" width="1" color="#0000ff" points="-10,-10,10,-30"/>
+        <shape type="line" width="1" color="#0000ff" points="10,-30,0,-40"/>
+        <shape type="line" width="1" color="#0000ff" points="0,-40,0,-60"/>
+        <pin position="0,-60" dir="0" length="0" text="1"/>
+        <pin position="0,60" dir="0" length="0" text="2"/>
+        <label text="Rload" position="3878,930" textroot=" " orientation="0" color="#228822"/>
+      </image>
+    </component>
+    <wire points="3860,1080,3860,1020" label=""/>
+    <wire points="3860,840,3860,900" label=""/>
+    <wire points="3860,840,3860,800" label=""/>
+    <wire points="3860,680,3860,740" label=""/>
+  </circuit>
+  <analysis>
+    <altium_simulation>
+      <parameter idx="0" name="TSTOP" value="0.002227325" group=".TRAN"/>
+      <parameter idx="1" name="RELTOL" value="0.005" group=".TRAN"/>
+      <parameter idx="2" name="KCLTOL" value="10n" group=".TRAN"/>
+      <parameter idx="3" name="VABSTOL" value="40u" group=".TRAN"/>
+      <parameter idx="4" name="TRES" value="5n" group=".TRAN"/>
+      <parameter idx="5" name="IABSTOL" value="10n" group=".TRAN"/>
+      <parameter idx="6" name="LTERATIO" value="20" group=".TRAN"/>
+      <parameter idx="7" name="TSTART" value="0" group=".TRAN"/>
+      <parameter idx="8" name="LTERELRATIO" value="20" group=".TRAN"/>
+      <parameter idx="9" name="OPTSTEP" value="off" group=".TRAN"/>
+      <parameter idx="10" name="TRAN_LIMITING" value="true" group=".OPTIONS"/>
+      <parameter idx="11" name="MAXMOS_DIM" value="1000000000" group=".OPTIONS"/>
+      <parameter idx="12" name="ROUND_ABSTOL" value="1" group=".OPTIONS"/>
+      <parameter idx="13" name="ROUND_RELTOL" value="1" group=".OPTIONS"/>
+      <parameter idx="14" name="FILTER" value="false" group=".OPTIONS"/>
+      <parameter idx="15" name="CHECK_DCMAX" value="false" group=".OPTIONS"/>
+      <parameter idx="16" name="Simulator" value="pspice" group="GENERAL"/>
+    </altium_simulation>
+  </analysis>
+  <encrypt_macros>
+    <macro filename="MAIN_BLOCK.U1.WB_TPS61088RHL.enl">
+      <![CDATA[-------- ENCRYPTED FILE --------
+ilxjT/Gc7hk=
+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
+C2i0mouCO7g=
+]]>
+    </macro>
+  </encrypt_macros>
+</schematic>
